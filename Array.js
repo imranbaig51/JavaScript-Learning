@@ -37,3 +37,24 @@ console.log(myArr);
 //Splice method adds and/or removes array elements. overwrites the original array manuplate the orignal array
 
 
+
+
+
+
+
+
+
+
+
+
+
+for (let i=0;i<10;i++){
+    console.log(i)
+}
+
+
+
+
+const a = 'this'
+console.log(a.indexOf('this'));
+
