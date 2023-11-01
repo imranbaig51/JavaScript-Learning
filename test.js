@@ -57,10 +57,53 @@ for(let i=0; i<name.length; i++){
 console.log(result);
 
 
-
-
-
 // string methods
 // array methods
 // pass by refrence and pass by value 
 // non primitive data type
+
+
+{
+  let array=[0, 1,2, 2, 3, 4, 5, 6, 5]
+  function arrayFunction(number){
+    let max = number[0]
+  // console.log(max);
+    for(let i=1; i<array.length; i++)  {
+  
+    let element = number[i]
+    // console.log(element);
+      if(element < max){
+        max = element
+      }
+      
+    }
+    return max 
+  }
+  
+  let result= arrayFunction(array)
+console.log(result);
+}
+
+
+
+// { 
+//   let arrayNum= [22,25,40,60,80,100];
+//   let result = largestNumber(arrayNum);
+// function largestNumber(number){
+//   let max = number[0];
+//   // console.log(max);
+//   for(let i = 0; i < number.length; i++){
+//       let element = number[i];
+//       // console.log(element);
+//       if(element > max){
+//           max = element;
+//       }
+//   }
+//   return max;
+// }
+// console.log('The Highest Number is:',result);
+// }
+
+
+
+
