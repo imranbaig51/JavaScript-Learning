@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <style>*{padding: 0; margin: 0;} .container{display: grid; place-items: center; height: 100vh;} table{border:2px solid black;} tr th,tr td{ padding: 10px 40px; border: 1px solid black;} </style>
     <!-- <script src="LetConstVar.js"></script> -->
     <!-- <script src="Array.js"></script> -->
     <!-- <script src="StringsMethod.js"></script> -->
     <!-- <script src="NumbersMethods.js"></script> -->
     <!-- <script src="ClassesAndObjects.js"></script> -->
-    <script src="Api.js"></script>
+    <!-- <script src="fetch-post.js"></script> -->
+    <script src="howToUseApiInHtml.js"></script>
+    <!-- <script src="Api.js"></script> -->
     <!-- <script src="promises.js"></script> -->
+</head>
+<body>
+    <div class="container">
+       <div>
+        <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>COMPLETED</th>
+              </tr>
+            </thead>
+            <tbody id="todosTableBody">
+              <!-- <tr>
+                <td id="user-id">ABC</td>
+                <td id="title">EFG</td>
+                <td id="result">XYZ</td>
+              </tr> -->
+            </tbody>
+          </table>
+    
+       </div>
+    </div>
+    
+    
 </body>
 </html>
